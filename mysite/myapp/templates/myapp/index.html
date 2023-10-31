@@ -3,9 +3,19 @@
     <haed>
         <link rel="stylesheet" href="{% static 'myapp/styles.css' %}">
     </haed>
-    <body class="bg-sky-500">
-        <h1> This is index template </h1>
-        
+    <body>
+    <nav>
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <img class="h-8 w-8" src="{% static 'myapp/images/shop.png' %}" alt="logo"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+            
         <h4>
             <!--<a href="/myapp/hello/{{item.id}}/">-->
             {% for item in items %}

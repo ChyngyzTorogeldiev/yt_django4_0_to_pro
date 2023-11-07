@@ -37,5 +37,3 @@ def seller_profile(request, id):
     }
 
     return render(request, 'users/sellerprofile.html', context)
-
-

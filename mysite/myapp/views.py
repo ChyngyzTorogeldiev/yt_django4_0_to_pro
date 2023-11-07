@@ -1,5 +1,5 @@
 import json
-#import stripe
+import stripe
 
 from django.conf import settings
 from django.contrib.auth.decorators import login_required
@@ -156,6 +156,3 @@ class PaymentSuccessView(TemplateView):
 
 class PaymentFailedView(TemplateView):
     template_name = "myapp/payment_failed.html"
-
-
-

@@ -9,8 +9,11 @@
     <title>mysite</title>
 </head>
 <body>
-    {% block content %}
+    
+    {% include "myapp/navbar.html" %}
 
+    {% block content %}
+        TEXT
     {% endblock content %}
 </body>
 </html>
